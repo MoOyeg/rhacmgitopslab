@@ -1,8 +1,8 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: federation
-  namespace: simple-app
+  name: game-2048-cha
+  namespace: game-2048-ns
 spec:
   pathname: 'https://github.com/MoOyeg/rhacmgitopslab.git'
   type: GitHub

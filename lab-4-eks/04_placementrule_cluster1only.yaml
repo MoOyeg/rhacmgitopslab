@@ -1,0 +1,11 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  labels:
+    app: game-2048
+  name: env-devonly
+  namespace: game-2048-ns
+spec:
+  clusterSelector:
+    matchLabels:
+      env: dev
