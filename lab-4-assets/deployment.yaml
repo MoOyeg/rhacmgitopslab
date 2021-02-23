@@ -16,7 +16,7 @@ spec:
         app: httpd
     spec:
       containers:
-      - image: rhscl/httpd-24-rhel7 
+      - image: quay.io/centos7/httpd-24-centos7 
         name: httpd
         ports:
         - containerPort: 8080
